@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: blueviolet;
+}
+
+
+#hero{
+    padding-top: 4rem;
+    background-color: blueviolet;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+#hero h3{
+    font-weight: 900;
+}
+
+#hero h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#hero h2{
+    font-weight: 900;
+}
+
+#about{
+    margin-top: 7rem;
+}
+
+#service{
+    background-color: darkturquoise;
+}
+
+.container-fluid{
+    background-color: cornflowerblue;
+}
+
+@media screen and (max-width:768px) {
+    .right a{
+        display: none;
+    }
+    .bt{
+        display: none;
+    }
+}
